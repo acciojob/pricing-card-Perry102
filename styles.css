@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(234, 238, 241);
+    padding: 25px;    
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+
+}
+
+#im{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+/* styles.css */
+
+.btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #3498db; /* Background color of the button */
+    color: #fff; /* Text color of the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    border: none; /* Remove default button border */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline from text */
+    cursor: pointer; /* Cursor style on hover */
+    bottom: 20px;
+    margin-top: 30px;
+    
+}
+
